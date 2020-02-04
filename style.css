@@ -1,0 +1,108 @@
+@import(href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i" rel="stylesheet");
+  
+  body{
+    background-color: white;
+    font-family: Asap, sans-serif;
+    font-color: black;
+    width= 100%;
+    margin: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.container-v{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 0em;
+}
+  h1{
+    font-family: Asap, sans-serif;
+    font-size: 5em;
+    color: #ed121f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 0em .5em 0em;
+    }
+h2{ 
+    font-family: Asap, sans-serif;
+    font-size: 2.5em;
+    color: black;
+    margin: 0em 0em .2em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+  width: 50%;
+  margin: 3em 0em 5em 0em;
+  text-align: center;
+  
+}
+.contacto{
+  width: 18%;
+  background-color: #FFEB3B;
+  border-radius: 15px;
+  font-family: Asap, sans-serif;
+  font-size: 2em;
+  color: #442f55;
+  padding: .7em;
+  margin: 1em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.mid{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.button{
+  background-color: #00b4fa;
+  border-radius: 20px; 
+  padding: .5em;
+  margin: .2em;
+  border: .6em solid black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.button:hover{
+  background-color: #80DEEA;
+}
+.button2{
+  padding: .5em;
+  background-color: #37a742;
+  border-radius: 20px; 
+  margin: .5em;
+  border: .6em solid black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.button2:hover{
+    background-color: #67e752;
+}
+footer{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  }
